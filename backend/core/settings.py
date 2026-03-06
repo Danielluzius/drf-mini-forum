@@ -147,5 +147,6 @@ REST_FRAMEWORK = {
         'anon': '100/hour',
         'user': '1000/hour',
         'posts': '1/minute',
+        # 'posts': '10/minute',  # Increased for testing - change back to '1/minute' for production
     },
 }
